@@ -1,0 +1,30 @@
+.header {
+    background-color: #ebe3e3;
+    padding: 40px;
+    border: 2px solid #c3c3c3;
+    border-radius: 4%;
+    text-align: right;
+  }
+  .header a {
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #936f6f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header a:hover {
+    background-color: #d4c4c4;
+    color: #936f6f;
+  }
+
+  .header a:active {
+    transform: scale(0.95);
+  }
